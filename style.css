@@ -1,0 +1,60 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Comic Sans MS", "Comic Neue", cursive;
+}
+
+.scene {
+  position: relative;
+  min-height: 70vh;
+  width: 100%;
+}
+
+.box {
+  position: absolute;
+  padding: 30px 34px;
+  max-width: 420px;
+  font-size: 1.15rem;
+  line-height: 1.55;
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+  border-radius: 4px;
+}
+
+.a {
+  top: 12%;
+  left: 6%;
+  background: rgba(245, 230, 230, 0.92);
+}
+
+.b {
+  top: 18%;
+  right: 10%;
+  background: rgba(230, 240, 245, 0.92);
+}
+
+.c {
+  top: 20%;
+  left: 14%;
+  background: rgba(235, 245, 230, 0.92);
+}
+
+.d {
+  top: 18%;
+  right: 18%;
+  background: rgba(245, 240, 225, 0.92);
+}
+
+.e {
+  top: 22%;
+  left: 10%;
+  background: rgba(235, 230, 245, 0.92);
+}
